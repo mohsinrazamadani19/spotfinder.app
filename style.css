@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    overflow: scroll;
+}
+.nav {
+    width: 100%;
+    height: 12vh;
+    border-top: 1px solid rgba(170, 164, 164, 0.479);
+    border-bottom: 1px solid rgba(170, 164, 164, 0.479);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+   
+    
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    
+
+
+}
+
+.logo>img {
+    width: 200px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 15px;
+    
+    
+
+}
+
+.option {
+    width: 50%;
+    height: 100%;
+
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+
+.option>a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    color: rgb(109, 109, 109);
+    font-weight: bolder;
+}
+
+.option>a:hover{
+    color: red;
+}
+
+.option>a:active{
+    color: rgba(255, 0, 0, 0.534);
+}
+
+
+.side {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side>a>img {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+
+}
+
+
+
+.side>a {
+    margin: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+
+}
+
+.side>a:hover{
+    color: red;
+}
+
+.side>a:active{
+    color: rgba(255, 0, 0, 0.534);
+}
+
+.side>button {
+    background-color: red;
+    border-radius: 50px;
+    width: 100px;
+    height: 5vh;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+
+}
+
+.side>button:hover{
+    background-color: rgba(255, 0, 0, 0.658);
+    cursor: pointer;
+}
+
+
+.side>button:active{
+background-color: rgb(230, 75, 75);
+      
+}
+
+
+
+
+.front1{
+    width: 90%;
+    height: 80vh;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 120px;
+    display: flex;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+    
+}
+
+
+.form{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.form>form>h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.form>form>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input1{
+    width: 100%;
+    height: 60px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.input1>img{
+    width: 8%;
+    height: 40px;
+    border: 1px solid white;
+    margin-left: 0px;
+    
+}
+
+.input1>input{
+    width: 85%;
+    height: 50px;
+   margin-left: 5px;
+   box-shadow: none;
+   font-size: large;
+   border-color: white;
+   border: none;
+   outline: none;
+   
+    
+}
+
+.input2{
+    width: 100%;
+    height: 60px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.input2>img{
+    width: 5%;
+    height: 25px;
+    border: 1px solid white;
+    margin-left: 5px;
+    
+}
+
+select{
+    width: 85%;
+    height: 50px;
+   margin-left: 10px;
+   box-shadow: none;
+   font-size: large;
+   border-color: white;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   
+    
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkin{
+    width: 48%;
+    height: 60px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 2%;
+}
+
+.checkin>img{
+    width: 15%;
+    height: 25px;
+    margin: 4px;
+    margin-left: 10px;
+}
+
+.checkin>input{
+    width: 80%;
+    height: 20px;
+    margin: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout{
+    width: 48%;
+    height: 60px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 2%;
+}
+
+.checkout>img{
+    width: 15%;
+    height: 25px;
+    margin: 4px;
+    margin-left: 10px;
+}
+
+.checkout>input{
+    width: 80%;
+    height: 20px;
+    margin: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form>form>button{
+    color: white;
+    width: 300px;
+    background-color:red;
+    margin: 25px;
+    margin-left: 70px;
+    margin-top: 40px;
+    height: 8vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    
+}
+
+
+
+.form>form>button:hover{
+    background-color: rgba(255, 0, 0, 0.658);
+    cursor: pointer;
+}
+.form>form>button:active{
+    background-color: rgb(230, 75, 75);
+}
+
+.formimage{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.formimage>img{
+    width: 100%;
+}
+
+.we{
+    position: absolute;
+    width: 100%;
+    margin-top: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.we>h1{
+    font-size: 52px;
+}
+
+.we>p{
+    font-size: 30px;
+}
+
+.card{
+    position: absolute;
+    
+    margin-top: 820px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 40vh;
+    padding: 10%;
+   
+    
+    
+    
+}
+
+.card1{
+    width: 30%;
+    height: 60vh;
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-color: lightgray;
+    text-align: center;
+}
+
+.card1>p{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(34, 34, 34);
+}
+
+.card2{
+    width: 30%;
+    height: 60vh;
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-color: lightgray;
+    text-align: center;
+
+}
+
+.card2>p{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(34, 34, 34);
+}
+.card3{
+    width: 30%;
+    height: 60vh;
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-color: lightgray;
+    text-align: center;
+}
+
+.card3>p{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(34, 34, 34);
+}
+
+.card1>img{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    height: 10rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.card2>img{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    height: 10rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.card3>img{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    height: 10rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card1>button, .card2>button, .card3>button{
+
+    color: white;
+    background-color: red;
+    margin-top: 50px;
+    border: none;
+    width: 150px;
+    height: 8vh;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.card1>button:hover, .card2>button:hover, .card3>button:hover{
+    background-color: tomato;
+}
+
+.card1>button:active, .card2>button:active, .card3>button:active{
+    background-color: rgba(255, 99, 71, 0.438);
+}
+
+.spot{
+    position: absolute;
+    margin-top: 1300px;
+    text-align: center;
+    width: 80%;
+    height: 120vh;
+    border: 1px solid black;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+   
+}
+.spot>h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.spot>p{
+    font-size: 25px;
+    color: white;
+   
+}
+
+.subspot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spot1{
+    border: 1px solid white;
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.spot1>img{
+    width: 70px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.spot1>h1{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.spot2{
+    border: 1px solid white;
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.spot2>img{
+    width: 70px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.spot2>h1{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.spot3{
+    border: 1px solid white;
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.spot3>img{
+    width: 70px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.spot3>h1{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
