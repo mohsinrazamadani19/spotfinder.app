@@ -891,4 +891,5 @@ select {
 .chating>img{
     width: 100%;
     cursor: pointer;
+    z-index: 1;
 }
